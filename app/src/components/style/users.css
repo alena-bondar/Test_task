@@ -1,0 +1,129 @@
+.containerUsers {
+    min-width: 75%;
+    box-shadow: 0 25px 25px 6px rgba(209,209,209,0.33);
+}
+
+.refresh {
+    background-color: #EAF2FF;
+    height: 33px;
+    display: flex;
+    border-radius: 5px 5px 0 0;
+    align-items: center;
+}
+
+.refresh img {
+    height: 18px;
+    padding: 0 18px 0 8px;
+}
+
+.read {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3% 0 3%;
+    align-items: center;
+    border-bottom: 2px solid #f6f6f6;
+    background-color: #FFFFFF;
+}
+
+.unread {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3% 0 3%;
+    align-items: center;
+    border-bottom: 2px solid #f6f6f6;
+    background-color: #F9FAFF;
+}
+
+.containerImgFemale {
+    border-radius: 50%;
+    background-color: rgba(246, 87, 110, 0.4);
+    width: 50px;
+    height: 50px;
+    position: relative;
+    border: 2px solid #FFFFFF;
+    box-shadow: 0 0 1px 0 rgb(89 89 89);
+    top: 11px;
+
+}
+
+.containerImgMale {
+    border-radius: 50%;
+    background-color: rgba(139, 145, 221, 0.4);
+    width: 50px;
+    height: 50px;
+    position: relative;
+    border: 2px solid #FFFFFF;
+    box-shadow: 0 0 1px 0 rgb(89 89 89);
+    top: 11px;
+
+}
+
+.containerImgFemale img {
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    height: 24px;
+}
+
+.containerImgMale img {
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    height: 24px;
+}
+
+.containerIcon img {
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    box-shadow: 0 4px 35px rgba(168, 172, 176, 0.19);
+    position: relative;
+    z-index: 10;
+    left: 35px;
+    top: -8px;
+    height: 16px;
+}
+
+.userName {
+    display: flex;
+    flex-flow: column;
+    height: 38px;
+    justify-content: space-between;
+}
+
+.description {
+    max-width: 334px;
+    color: #8B91DD;
+    line-height: 1.2;
+
+}
+
+.pages {
+    position: relative;
+    left: 468px;
+    padding: 15px 0;
+    color: #2C7DFA;
+    font-weight: 500;
+}
+
+.time p, .date p {
+    color: #8E8E93;
+}
+
+.time {
+    padding-right: 32px;
+}
+
+.highlight {
+   color: #2C7DFA;
+}
+
+.blockNameDescription, .blockTimeDate {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.blockNameDescription {
+    justify-content: space-between;
+    min-width: 66%;
+    margin-right: 11%;
+}
